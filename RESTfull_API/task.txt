@@ -1,0 +1,16 @@
+GET /users - HTML Docuemnt 
+
+GET /api/users List all users 
+
+GET /api/users/1 Get the user with ID 1
+GET /api/users/2 Get the user with ID 2
+
+Dynamic Path Parameter:-
+GET /api/users/:id
+:id -> Variable
+
+POST/api/users :- Create new user
+
+delete/api/users/:id :- delete a user
+
+patch/api/users/:id :- Update a user
