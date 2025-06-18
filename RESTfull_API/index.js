@@ -8,6 +8,17 @@ const PORT = 8080
 //Middleware-plugin
 app.use(express.urlencoded({extended: false}));
 
+//this two middleware are for middleware practice.
+// app.use((req, res, next) =>{
+//     console.log("Middleware 1");
+//     req.myUserName = "Ajesh"
+//     next();
+// })
+// app.use((req, res, next) =>{
+//     console.log("Middleware 2", req.myUserName);
+//     next();
+// })
+
 //Routes
 app.get('/users', (req, res)=>{
     const html = `
